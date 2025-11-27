@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Insights | Crypvorex</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Montserrat:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold-primary: #d4af37; --bg-dark: #050505; }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--bg-dark); color: #ffffff; }
+        h1, h2, h3 { font-family: 'Cinzel', serif; }
+        .text-gold { color: var(--gold-primary); }
+        /* Grain */
+        body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9998; opacity: 0.03; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="w-full py-6 border-b border-white/10 bg-black/90 backdrop-blur-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="text-gold font-serif font-bold text-xl tracking-widest">CRYPVOREX</a>
+            <div class="hidden md:flex gap-6">
+                <a href="capabilities.html" class="text-xs uppercase tracking-widest text-gray-400 hover:text-gold">Capabilities</a>
+                <a href="industries.html" class="text-xs uppercase tracking-widest text-gray-400 hover:text-gold">Industries</a>
+                <a href="insights.html" class="text-xs uppercase tracking-widest text-gold">Insights</a>
+                <a href="about.html" class="text-xs uppercase tracking-widest text-gray-400 hover:text-gold">About</a>
+            </div>
+            <a href="mailto:crypvorex@gmail.com" class="text-xs text-black bg-gold px-4 py-2 font-bold uppercase tracking-widest">Contact</a>
+        </div>
+    </nav>
+
+    <header class="py-24 text-center">
+        <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Market Intelligence</span>
+        <h1 class="text-4xl md:text-6xl font-bold mt-4 text-white">Strategic <span class="italic text-gold">Insights</span></h1>
+    </header>
+
+    <section class="container mx-auto px-6 pb-24 max-w-6xl">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Article 1 -->
+            <a href="article.html" class="bg-[#0a0a0a] border border-white/10 hover:border-gold/50 transition-all group cursor-pointer block">
+                <div class="h-48 bg-gray-800 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1642104704074-907c0698cbd9?q=80&w=800&auto=format&fit=crop" alt="Market Chart" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                    <div class="absolute bottom-4 left-4">
+                        <span class="text-xs bg-gold text-black font-bold px-2 py-1 uppercase">Alpha Hunting</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-500 text-xs mb-2 font-mono">MARCH 12, 2026</p>
+                    <h3 class="text-xl text-white mb-3 group-hover:text-gold transition-colors">The Death of Low Float / High FDV</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">Why the market is rejecting VC-heavy tokenomics and embracing fair launch models in the new cycle.</p>
+                    <span class="text-gold text-xs uppercase tracking-widest font-bold">Read Analysis &rarr;</span>
+                </div>
+            </a>
+
+            <!-- Article 2 -->
+            <a href="article.html" class="bg-[#0a0a0a] border border-white/10 hover:border-gold/50 transition-all group cursor-pointer block">
+                <div class="h-48 bg-gray-800 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" alt="Skyscraper" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                    <div class="absolute bottom-4 left-4">
+                        <span class="text-xs bg-white text-black font-bold px-2 py-1 uppercase">DeFi</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-500 text-xs mb-2 font-mono">FEBRUARY 28, 2026</p>
+                    <h3 class="text-xl text-white mb-3 group-hover:text-gold transition-colors">Real World Assets (RWA) on Chain</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">A deep dive into how tokenized treasury bills are reshaping stablecoin yields for protocols.</p>
+                    <span class="text-gold text-xs uppercase tracking-widest font-bold">Read Analysis &rarr;</span>
+                </div>
+            </a>
+
+            <!-- Article 3 -->
+            <a href="article.html" class="bg-[#0a0a0a] border border-white/10 hover:border-gold/50 transition-all group cursor-pointer block">
+                <div class="h-48 bg-gray-800 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=800&auto=format&fit=crop" alt="Security" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-60"></div>
+                    <div class="absolute bottom-4 left-4">
+                        <span class="text-xs bg-gray-500 text-white font-bold px-2 py-1 uppercase">Security</span>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <p class="text-gray-500 text-xs mb-2 font-mono">JANUARY 15, 2026</p>
+                    <h3 class="text-xl text-white mb-3 group-hover:text-gold transition-colors">Institutional Custody Standards</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">What the new SEC guidelines mean for your project's treasury management strategy.</p>
+                    <span class="text-gold text-xs uppercase tracking-widest font-bold">Read Analysis &rarr;</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <footer class="bg-[#020202] py-10 border-t border-white/5 text-center">
+        <p class="text-gray-600 text-xs">© 2026 Crypvorex. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

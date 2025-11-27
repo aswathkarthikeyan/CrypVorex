@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Studies | Crypvorex</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Montserrat:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root { --gold-primary: #d4af37; --bg-dark: #050505; }
+        body { font-family: 'Montserrat', sans-serif; background-color: var(--bg-dark); color: #ffffff; }
+        h1, h2, h3 { font-family: 'Cinzel', serif; }
+        .text-gold { color: var(--gold-primary); }
+        .btn-gold { background: #d4af37; color: #000; font-weight: 600; padding: 10px 20px; display: inline-block; }
+        /* Grain */
+        body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9998; opacity: 0.03; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="w-full py-6 border-b border-white/10 bg-black/50 backdrop-blur-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <a href="index.html" class="text-gold font-serif font-bold text-xl tracking-widest">CRYPVOREX</a>
+            <a href="index.html" class="text-xs text-gray-400 hover:text-white uppercase tracking-widest">Back to Home</a>
+        </div>
+    </nav>
+
+    <header class="py-24 text-center">
+        <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Proven Results</span>
+        <h1 class="text-4xl md:text-6xl font-bold mt-4 text-white">Client <span class="italic text-gold">Case Studies</span></h1>
+    </header>
+
+    <section class="container mx-auto px-6 pb-24">
+        <div class="grid gap-12">
+            
+            <!-- Case 1 -->
+            <div class="border border-white/10 bg-[#0a0a0a] p-8 md:p-12 relative overflow-hidden group hover:border-gold/50 transition-colors">
+                <div class="absolute top-0 right-0 bg-gold text-black text-xs font-bold px-4 py-2 font-mono">DEFI PROTOCOL</div>
+                <h3 class="text-3xl text-white mb-2">Nexus Protocol</h3>
+                <p class="text-gray-500 text-sm mb-6 uppercase tracking-widest">Tokenomics Restructuring & Series A Prep</p>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-2/3">
+                        <p class="text-gray-300 font-light leading-relaxed mb-4">
+                            Nexus Protocol approached us with a stagnating token price and high emission inflation. We conducted a full audit of their incentive mechanisms.
+                        </p>
+                        <p class="text-gray-300 font-light leading-relaxed">
+                            <strong>Solution:</strong> We implemented a 'Vote-Escrow' model (veToken) and reduced emissions by 40% while introducing real-yield staking.
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 bg-black/50 p-6 border border-white/5">
+                        <h4 class="text-gold font-mono text-lg mb-4">Results</h4>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex justify-between"><span>TVL Growth:</span> <span class="text-green-400">+240%</span></li>
+                            <li class="flex justify-between"><span>Retention:</span> <span class="text-green-400">+85%</span></li>
+                            <li class="flex justify-between"><span>Funding:</span> <span class="text-gold">$1M+ Raised</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Case 2 -->
+            <div class="border border-white/10 bg-[#0a0a0a] p-8 md:p-12 relative overflow-hidden group hover:border-gold/50 transition-colors">
+                <div class="absolute top-0 right-0 bg-blue-900 text-white text-xs font-bold px-4 py-2 font-mono">METAVERSE</div>
+                <h3 class="text-3xl text-white mb-2">EtherRealms</h3>
+                <p class="text-gray-500 text-sm mb-6 uppercase tracking-widest">Go-To-Market & Community Growth</p>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-2/3">
+                        <p class="text-gray-300 font-light leading-relaxed mb-4">
+                            A high-fidelity VR metaverse project struggling to acquire initial users despite superior tech.
+                        </p>
+                        <p class="text-gray-300 font-light leading-relaxed">
+                            <strong>Solution:</strong> We executed a "Warlord" alpha hunting campaign, partnering with 5 strategic guilds and implementing a gamified waitlist.
+                        </p>
+                    </div>
+                    <div class="md:w-1/3 bg-black/50 p-6 border border-white/5">
+                        <h4 class="text-gold font-mono text-lg mb-4">Results</h4>
+                        <ul class="space-y-2 text-sm text-gray-300">
+                            <li class="flex justify-between"><span>User Base:</span> <span class="text-green-400">10k to 50k</span></li>
+                            <li class="flex justify-between"><span>NFT Vol:</span> <span class="text-green-400">3,500 ETH</span></li>
+                            <li class="flex justify-between"><span>Discord:</span> <span class="text-gold">Top 1% Activity</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-[#020202] py-10 border-t border-white/5 text-center">
+        <p class="text-gray-600 text-xs">© 2026 Crypvorex. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

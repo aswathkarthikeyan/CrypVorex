@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Crypvorex</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Montserrat:wght@300;400;500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold-primary: #d4af37;
+            --gold-light: #f3e5ab;
+            --gold-dark: #aa8c2c;
+            --bg-dark: #050505;
+            --bg-card: #0f0f0f;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-dark);
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Cinzel', serif;
+        }
+
+        .font-mono-tech {
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        .text-gold {
+            color: var(--gold-primary);
+        }
+
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.85);
+            backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .btn-gold {
+            background: linear-gradient(90deg, var(--gold-dark), var(--gold-primary));
+            color: #000;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        /* Film Grain Overlay */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9998;
+            opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-gold-primary flex items-center justify-center text-black font-serif font-bold text-xl" style="background-color: var(--gold-primary);">C</div>
+                <a href="index.html" class="text-lg md:text-xl font-bold tracking-widest text-gold uppercase">Crypvorex</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="capabilities.html" class="text-xs text-gray-300 hover:text-gold transition-colors uppercase tracking-widest font-medium">Consulting Areas</a>
+                <a href="about.html" class="text-xs text-gold transition-colors uppercase tracking-widest font-medium">About</a>
+                <a href="founder.html" class="text-xs text-gray-300 hover:text-gold transition-colors uppercase tracking-widest font-medium">Founder</a>
+                <a href="mailto:crypvorex@gmail.com" class="btn-gold px-6 py-2 rounded-none uppercase text-xs tracking-widest font-bold">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="pt-40 pb-20 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-gray-900 to-[#050505] -z-10"></div>
+        <div class="container mx-auto px-6 text-center">
+            <span class="text-gold text-xs font-bold uppercase tracking-[0.2em]">Our Legacy</span>
+            <h1 class="text-4xl md:text-6xl font-bold mt-4 mb-6 text-white">About <span class="italic text-gold">Crypvorex</span></h1>
+            <p class="text-gray-400 max-w-2xl mx-auto font-light text-lg">
+                Founded on the principles of diligence, adaptability, and transparency. We are the architects of the decentralized future.
+            </p>
+        </div>
+    </header>
+
+    <!-- Content -->
+    <section class="py-20 bg-[#080808]">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                <!-- Left Column: Mission & Philosophy -->
+                <div>
+                    <h3 class="text-gold font-serif text-3xl mb-6">The Mission</h3>
+                    <p class="text-gray-300 font-light leading-relaxed mb-10 text-lg">
+                        At Crypvorex, our mission is to empower Web3 projects, investors, and stakeholders with actionable insights and tailored strategies. We believe that the future of finance is decentralized, but the path to that future requires rigorous architectural planning and sustainable economic modeling.
+                    </p>
+
+                    <h3 class="text-gold font-serif text-3xl mb-6">Our Philosophy</h3>
+                    <p class="text-gray-300 font-light leading-relaxed mb-10 text-lg">
+                        We don't just follow trends; we identify them. In a market driven by hype, we provide the signal. Our approach is collaborative, transparent, and focused strictly on long-term value creation. We partner with founders who are building for the next decade, not just the next pump.
+                    </p>
+                </div>
+
+                <!-- Right Column: Stats or Graphic -->
+                <div class="bg-[#0a0a0a] p-10 border border-white/10 relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-gold/10 rounded-full blur-3xl"></div>
+                    <h4 class="text-white font-serif text-2xl mb-6">Our Impact by the Numbers</h4>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <span class="text-4xl text-gold font-bold block mb-1">4+</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Years of Operation</span>
+                        </div>
+                        <div>
+                            <span class="text-4xl text-gold font-bold block mb-1">$1M+</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Capital Raised</span>
+                        </div>
+                        <div>
+                            <span class="text-4xl text-gold font-bold block mb-1">20+</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Projects Scaled</span>
+                        </div>
+                        <div>
+                            <span class="text-4xl text-gold font-bold block mb-1">98%</span>
+                            <span class="text-xs text-gray-500 uppercase tracking-widest">Client Retention</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Values Grid -->
+            <div class="my-20 border-y border-white/10 py-16">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl text-white font-bold mb-4">Core Values</h2>
+                    <p class="text-gray-500 max-w-2xl mx-auto">The principles that guide our strategic advisory.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="text-center group p-6 hover:bg-white/5 transition-colors">
+                        <div class="text-gold text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">🛡️</div>
+                        <h4 class="text-white font-bold uppercase text-lg tracking-widest mb-4">Diligence</h4>
+                        <p class="text-sm text-gray-400 leading-relaxed">We dig deeper into on-chain data than anyone else. Our due diligence is forensic, ensuring no risk is overlooked.</p>
+                    </div>
+                    <div class="text-center group p-6 hover:bg-white/5 transition-colors">
+                        <div class="text-gold text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">⚡</div>
+                        <h4 class="text-white font-bold uppercase text-lg tracking-widest mb-4">Adaptability</h4>
+                        <p class="text-sm text-gray-400 leading-relaxed">The market changes daily; our strategies change with it. We pivot faster than the consensus to capture alpha.</p>
+                    </div>
+                    <div class="text-center group p-6 hover:bg-white/5 transition-colors">
+                        <div class="text-gold text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">👁️</div>
+                        <h4 class="text-white font-bold uppercase text-lg tracking-widest mb-4">Transparency</h4>
+                        <p class="text-sm text-gray-400 leading-relaxed">Honest strategic insights. We tell you what you need to hear, not what you want to hear.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#020202] py-10 border-t border-white/5">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-600 text-xs">© 2026 Crypvorex. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
